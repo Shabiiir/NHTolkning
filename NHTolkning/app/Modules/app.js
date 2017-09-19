@@ -2,16 +2,16 @@
     app.config(function ($routeProvider) {
         $routeProvider
         .when("/", {
-            templateUrl: 'home/home.html'
+            templateUrl: 'app/Modules/home/home.html'
         })
         .when("/home", {
-            templateUrl: "home/home.html"
+            templateUrl: "app/Modules/home/home.html"
         })
         .when("/about", {
-            templateUrl: "about/about.html"
+            templateUrl: "app/Modules/about/about.html"
         })
         .when("/contact", {
-            templateUrl: "contact/contact.html"
+            templateUrl: "app/Modules/contact/contact.html"
         })
         .otherwise({ redirectTo: '/' });
     });
